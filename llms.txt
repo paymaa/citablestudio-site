@@ -1,0 +1,25 @@
+# Citable Studio
+
+> Citable Studio is a studio for AI search visibility, also called generative engine optimization (GEO). It audits how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews read a business website, then fixes the issues that keep the business out of AI answers.
+
+## What the studio does
+
+- Free snapshot: a one-page summary sent within two working days, with a score out of 100, an AI crawler access check and the three biggest blockers.
+- Audit and fixes: a full audit in six areas for a fixed price, followed by the fixes: crawler access, llms.txt, structured data and rewrites of up to five key pages. From $390, one-off.
+- Monthly: a monthly re-audit, tracking of AI mentions for the client's questions, new citable content and brand mention work. From $590 a month.
+
+## How the score is built
+
+The score out of 100 weights six areas: AI citability 25%, brand authority 20%, content quality 20%, technical foundations 15%, structured data 10%, platform fit 10%.
+
+## What the studio does not promise
+
+Nobody controls what an AI engine chooses to cite. The studio removes known blockers, makes content easier to quote and reports before and after results. It does not guarantee citations.
+
+## Pages
+
+- [Home](https://citablestudio.com/): services, method, packages, questions and the snapshot request form.
+
+## Contact
+
+- Email: hello@citablestudio.com

@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citable Studio | Get your business cited by AI search</title>
+<meta name="description" content="Citable Studio audits how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews read your website, then fixes what keeps you out of their answers.">
+<meta name="theme-color" content="#0b0a08">
+<link rel="canonical" href="https://citablestudio.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Citable Studio | Get your business cited by AI search">
+<meta property="og:description" content="We audit how AI search engines read your website and fix what keeps you out of their answers.">
+<meta property="og:url" content="https://citablestudio.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="modulepreload" href="vendor/three.module.min.js">
+<link rel="modulepreload" href="vendor/three.core.min.js">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://citablestudio.com/#studio",
+      "name": "Citable Studio",
+      "url": "https://citablestudio.com/",
+      "description": "Citable Studio audits how AI search engines such as ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews read a website, and fixes the issues that keep the business out of AI answers.",
+      "serviceType": "Generative engine optimization (GEO) and AI search visibility",
+      "areaServed": "Worldwide",
+      "knowsAbout": ["Generative engine optimization", "AI search visibility", "Structured data", "llms.txt", "Technical SEO"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://citablestudio.com/#website",
+      "url": "https://citablestudio.com/",
+      "name": "Citable Studio",
+      "publisher": { "@id": "https://citablestudio.com/#studio" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is generative engine optimization (GEO)?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Generative engine optimization is the work of making a website easy for AI search engines to read, trust and quote. It covers whether AI crawlers are allowed in, whether the page content is visible without JavaScript, whether facts are written as short self-contained passages, whether structured data describes the business, and whether the brand is mentioned on the sources AI engines draw from." }
+        },
+        {
+          "@type": "Question",
+          "name": "How is GEO different from SEO?",
+          "acceptedAnswer": { "@type": "Answer", "text": "SEO aims for a high position in a list of links. GEO aims to be one of the few sources an AI engine quotes inside its answer. The foundations overlap: a fast, crawlable, well-structured site helps both. GEO adds work on citable passages, AI crawler access, entity and brand signals, and machine-readable summaries such as llms.txt." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you guarantee that ChatGPT or Google will cite my business?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Nobody controls what an AI engine chooses to cite, and anyone who promises it is guessing. What we can do is remove the known blockers, make your content easier to quote, and track before and after which engines mention you for the questions your customers ask." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an audit take?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The free snapshot is a one-page summary sent within two working days. The full audit with fixes usually takes one to two weeks, depending on the size of the site and how quickly we get access to it." }
+        },
+        {
+          "@type": "Question",
+          "name": "What do you need from me to start?",
+          "acceptedAnswer": { "@type": "Answer", "text": "For the snapshot, only your website address. For the fixes, we need a way to change the site: an editor login for your website platform, or a developer on your side who can apply the changes we hand over." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div id="labels" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Citable Studio, home">
+    <svg viewBox="0 0 28 28" width="26" height="26" aria-hidden="true"><circle cx="14" cy="14" r="12.5" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="14" cy="14" r="4" fill="var(--signal)"/><circle cx="23.5" cy="8" r="1.8" fill="currentColor"/></svg>
+    <span>Citable<em>Studio</em></span>
+  </a>
+  <nav class="nav-links" aria-label="Main">
+    <a href="#shift">The shift</a>
+    <a href="#audit">What we check</a>
+    <a href="#demo">Try it</a>
+    <a href="#packages">Packages</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <a class="btn btn-small" href="#contact">Free snapshot</a>
+</header>
+
+<main id="main">
+
+  <!-- 1. HERO -->
+  <section class="panel hero" id="top" data-shape="globe" data-side="center">
+    <div class="wrap">
+      <p class="eyebrow"><span class="dot"></span>AI search visibility studio</p>
+      <h1>When people ask AI,<br>be the answer it <em>cites</em>.</h1>
+      <p class="lede">ChatGPT, Claude, Perplexity, Gemini and Google's AI Overviews now answer the questions that used to send visitors to your website. We audit how those engines read your site, then fix what keeps you out of their answers.</p>
+      <div class="actions">
+        <a class="btn" href="#contact">Get a free snapshot</a>
+        <a class="btn btn-ghost" href="#demo">Try the score demo</a>
+      </div>
+    </div>
+    <p class="hint" aria-hidden="true"><span class="hint-line"></span>Drag to turn it · scroll to explore</p>
+  </section>
+
+  <!-- 2. THE SHIFT -->
+  <section class="panel" id="shift" data-shape="engines" data-side="right">
+    <div class="wrap two">
+      <div class="col-text">
+        <p class="eyebrow"><span class="num">01</span>The shift</p>
+        <h2>Five engines now stand between you and your next customer.</h2>
+        <p>Each one reads the web with its own crawlers and leans on different sources. A site that one engine quotes freely can be invisible to another. Pick an engine to see how it reaches your site.</p>
+
+        <div class="engine-tabs" role="tablist" aria-label="AI search engines">
+          <button role="tab" aria-selected="true" data-engine="0">ChatGPT</button>
+          <button role="tab" aria-selected="false" data-engine="1">Claude</button>
+          <button role="tab" aria-selected="false" data-engine="2">Perplexity</button>
+          <button role="tab" aria-selected="false" data-engine="3">Gemini</button>
+          <button role="tab" aria-selected="false" data-engine="4">AI Overviews</button>
+        </div>
+
+        <div class="engine-card" id="engine-card" role="tabpanel" aria-live="polite">
+          <h3 id="engine-name">ChatGPT</h3>
+          <p id="engine-text"></p>
+          <dl>
+            <div><dt>Crawlers to allow</dt><dd id="engine-bots"></dd></div>
+            <div><dt>What we check for it</dt><dd id="engine-check"></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. WHAT WE CHECK -->
+  <section class="panel" id="audit" data-shape="bars" data-side="left">
+    <div class="wrap two flip">
+      <div class="col-text">
+        <p class="eyebrow"><span class="num">02</span>What we check</p>
+        <h2>Six areas, one score out of 100.</h2>
+        <p>Every audit scores your site in six areas and weights them by how much each one affects whether an AI engine can find, trust and quote you. Hover an area to light up its share.</p>
+
+        <ul class="areas" id="areas">
+          <li data-area="0" tabindex="0"><span class="w">25</span><div><h3>AI citability</h3><p>Are your facts written as short, self-contained passages an engine can lift and quote?</p></div></li>
+          <li data-area="1" tabindex="0"><span class="w">20</span><div><h3>Brand authority</h3><p>Is your business mentioned on the sources AI engines draw from, with consistent details?</p></div></li>
+          <li data-area="2" tabindex="0"><span class="w">20</span><div><h3>Content quality</h3><p>Does the content show real experience, named authors, dates and evidence?</p></div></li>
+          <li data-area="3" tabindex="0"><span class="w">15</span><div><h3>Technical foundations</h3><p>Is the content in the page itself, fast to load, and open to AI crawlers?</p></div></li>
+          <li data-area="4" tabindex="0"><span class="w">10</span><div><h3>Structured data</h3><p>Does schema markup tell machines who you are, what you sell and where?</p></div></li>
+          <li data-area="5" tabindex="0"><span class="w">10</span><div><h3>Platform fit</h3><p>What does each engine need that the others do not?</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. HOW IT WORKS -->
+  <section class="panel" id="process" data-shape="helix" data-side="right">
+    <div class="wrap two">
+      <div class="col-text">
+        <p class="eyebrow"><span class="num">03</span>How it works</p>
+        <h2>Three steps. You see the findings before you pay for anything.</h2>
+        <ol class="steps">
+          <li><span class="step-n">1</span><div><h3>Free snapshot</h3><p>Send us your address. Within two working days you get a one-page summary: your score, the three biggest blockers and what fixing them involves.</p></div></li>
+          <li><span class="step-n">2</span><div><h3>Audit and fixes</h3><p>A full audit of the six areas for a fixed price, followed by the fixes themselves: crawler access, structured data, llms.txt and rewrites of your key pages.</p></div></li>
+          <li><span class="step-n">3</span><div><h3>Monthly tracking</h3><p>Each month we re-run the audit, check which engines mention you for your customers' questions, and work through the next items on the list.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. DEMO -->
+  <section class="panel" id="demo" data-shape="gauge" data-side="left">
+    <div class="wrap two flip">
+      <div class="col-text">
+        <p class="eyebrow"><span class="num">04</span>Try it</p>
+        <h2>Switch the fixes on and watch the score move.</h2>
+        <p>This is an illustration of how the score responds to typical fixes on a site that starts with common problems. It is not a client result, and your site will have its own numbers.</p>
+
+        <div class="demo">
+          <div class="demo-score" aria-live="polite">
+            <span class="demo-num" id="demo-num">34</span>
+            <span class="demo-of">/ 100</span>
+            <span class="demo-band" id="demo-band">Hard to cite</span>
+          </div>
+          <div class="toggles" id="toggles">
+            <label><input type="checkbox" data-gain="9"><span class="sw"></span><span class="tl">Let AI crawlers in<small>robots.txt stops blocking them</small></span><b>+9</b></label>
+            <label><input type="checkbox" data-gain="10"><span class="sw"></span><span class="tl">Add structured data<small>business, services, FAQ</small></span><b>+10</b></label>
+            <label><input type="checkbox" data-gain="18"><span class="sw"></span><span class="tl">Rewrite key pages<small>into passages that can be quoted</small></span><b>+18</b></label>
+            <label><input type="checkbox" data-gain="4"><span class="sw"></span><span class="tl">Publish llms.txt<small>a summary written for machines</small></span><b>+4</b></label>
+            <label><input type="checkbox" data-gain="14"><span class="sw"></span><span class="tl">Earn brand mentions<small>on the sources engines read</small></span><b>+14</b></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PACKAGES -->
+  <section class="panel" id="packages" data-shape="rings" data-side="center">
+    <div class="wrap">
+      <p class="eyebrow center"><span class="num">05</span>Packages</p>
+      <h2 class="center">Start free. Pay for fixes, not for a report.</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Snapshot</h3>
+          <p class="price">Free</p>
+          <p class="card-sub">One page, within two working days.</p>
+          <ul>
+            <li>Your score out of 100</li>
+            <li>AI crawler access check</li>
+            <li>Your three biggest blockers</li>
+          </ul>
+          <a class="btn btn-ghost" href="#contact" data-pack="Free snapshot">Request it</a>
+        </article>
+        <article class="card card-main">
+          <p class="tag">Recommended starting point</p>
+          <h3>Audit and fixes</h3>
+          <p class="price"><small>from</small> $390 <small>one-off</small></p>
+          <p class="card-sub">Fixed price, agreed before we start.</p>
+          <ul>
+            <li>Full six-area audit report</li>
+            <li>Crawler access and llms.txt set up</li>
+            <li>Structured data written and installed</li>
+            <li>Up to five key pages rewritten</li>
+            <li>Before and after score</li>
+          </ul>
+          <a class="btn" href="#contact" data-pack="Audit and fixes">Start with this</a>
+        </article>
+        <article class="card">
+          <h3>Monthly</h3>
+          <p class="price"><small>from</small> $590 <small>a month</small></p>
+          <p class="card-sub">Cancel any month.</p>
+          <ul>
+            <li>Monthly re-audit and progress report</li>
+            <li>Tracking of AI mentions for your questions</li>
+            <li>New citable content each month</li>
+            <li>Brand mention work</li>
+          </ul>
+          <a class="btn btn-ghost" href="#contact" data-pack="Monthly">Ask about it</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="panel" id="faq" data-shape="rings" data-side="center">
+    <div class="wrap narrow">
+      <p class="eyebrow"><span class="num">06</span>Questions</p>
+      <h2>Straight answers.</h2>
+      <div class="faq">
+        <details open>
+          <summary><h3>What is generative engine optimization (GEO)?</h3></summary>
+          <p>Generative engine optimization is the work of making a website easy for AI search engines to read, trust and quote. It covers whether AI crawlers are allowed in, whether the page content is visible without JavaScript, whether facts are written as short self-contained passages, whether structured data describes the business, and whether the brand is mentioned on the sources AI engines draw from.</p>
+        </details>
+        <details>
+          <summary><h3>How is GEO different from SEO?</h3></summary>
+          <p>SEO aims for a high position in a list of links. GEO aims to be one of the few sources an AI engine quotes inside its answer. The foundations overlap: a fast, crawlable, well-structured site helps both. GEO adds work on citable passages, AI crawler access, entity and brand signals, and machine-readable summaries such as llms.txt.</p>
+        </details>
+        <details>
+          <summary><h3>Can you guarantee that ChatGPT or Google will cite my business?</h3></summary>
+          <p>No. Nobody controls what an AI engine chooses to cite, and anyone who promises it is guessing. What we can do is remove the known blockers, make your content easier to quote, and track before and after which engines mention you for the questions your customers ask.</p>
+        </details>
+        <details>
+          <summary><h3>How long does an audit take?</h3></summary>
+          <p>The free snapshot is a one-page summary sent within two working days. The full audit with fixes usually takes one to two weeks, depending on the size of the site and how quickly we get access to it.</p>
+        </details>
+        <details>
+          <summary><h3>What do you need from me to start?</h3></summary>
+          <p>For the snapshot, only your website address. For the fixes, we need a way to change the site: an editor login for your website platform, or a developer on your side who can apply the changes we hand over.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT -->
+  <section class="panel contact" id="contact" data-shape="word" data-side="top">
+    <div class="wrap narrow">
+      <p class="eyebrow center"><span class="num">07</span>Start</p>
+      <h2 class="center">Find out how AI reads your site.</h2>
+      <p class="center lede">Send your address and we reply with a one-page snapshot within two working days. No call needed, no charge.</p>
+      <form class="form" id="form" novalidate>
+        <label>Your website<input type="url" name="site" id="f-site" placeholder="https://yourbusiness.com" autocomplete="url" required></label>
+        <label>Your email<input type="email" name="email" id="f-email" placeholder="you@yourbusiness.com" autocomplete="email" required></label>
+        <label class="full">Anything we should know <span class="opt">(optional)</span><textarea name="note" id="f-note" rows="3" placeholder="What you sell, who your customers are, which questions you want to be the answer to"></textarea></label>
+        <input type="hidden" name="pack" id="f-pack" value="Free snapshot">
+        <div class="full form-end">
+          <button class="btn" type="submit">Request my snapshot</button>
+          <p class="form-note" id="form-note" role="status">Opens your email app with the request filled in.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><strong>Citable Studio</strong> · AI search visibility for businesses that want to be the answer.</p>
+    <p class="foot-links"><a href="#top">Back to top</a><a href="llms.txt">llms.txt</a><a id="foot-mail" href="mailto:hello@citablestudio.com">hello@citablestudio.com</a></p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
