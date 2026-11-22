@@ -1,24 +1,24 @@
 # Citable Studio
 
-> Citable Studio is a studio for AI search visibility, also called generative engine optimization (GEO). It audits how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews read a business website, then fixes the issues that keep the business out of AI answers.
+> Citable Studio is a one-person studio for AI search visibility, also called generative engine optimization (GEO). It checks how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews read a business website, shows what is in the way, and fixes it for a fixed price.
 
 ## What the studio does
 
-- Free snapshot: a one-page summary sent within two working days, with a score out of 100, an AI crawler access check and the three biggest blockers.
-- Audit and fixes: a full audit in six areas for a fixed price, followed by the fixes: crawler access, llms.txt, structured data and rewrites of up to five key pages. From $390, one-off.
-- Monthly: a monthly re-audit, tracking of AI mentions for the client's questions, new citable content and brand mention work. From $590 a month.
+- Free snapshot: one page by email within two working days, with a reading out of 100 for the areas a program can measure, an AI crawler access table and the three biggest blockers with evidence.
+- Audit and fixes: a full audit in six areas for a price fixed in writing beforehand, then the fixes: AI crawler settings in robots.txt, structured data, llms.txt and rewrites of up to five key pages. From 390 US dollars, one-off.
+- Monthly: a monthly re-audit, a manual check of an agreed list of customer questions across the five engines, new or rewritten pages and work on how other sites describe the business. From 590 US dollars a month, cancellable any month.
 
 ## How the score is built
 
-The score out of 100 weights six areas: AI citability 25%, brand authority 20%, content quality 20%, technical foundations 15%, structured data 10%, platform fit 10%.
+The score out of 100 weights six areas: AI citability 25%, brand authority 20%, content quality 20%, technical foundations 15%, structured data 10%, platform fit 10%. The weights are the studio's own judgement, not a formula published by any AI company. The score is for comparing one site before and after the work.
 
 ## What the studio does not promise
 
-Nobody controls what an AI engine chooses to cite. The studio removes known blockers, makes content easier to quote and reports before and after results. It does not guarantee citations.
+Nobody controls what an AI engine chooses to cite. The studio removes documented blockers, makes pages easier to quote and reports before and after results. It gives no guarantee of citations and no traffic or revenue forecasts. The studio is new and has no case studies yet.
 
 ## Pages
 
-- [Home](https://citablestudio.com/): services, method, packages, questions and the snapshot request form.
+- [Home](https://citablestudio.com/): engines, method, sample snapshot, packages, questions and the snapshot request form.
 
 ## Contact
 
